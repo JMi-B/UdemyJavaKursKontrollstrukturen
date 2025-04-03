@@ -25,7 +25,7 @@ public class SchleifeWhile {
 //			
 //		}
 		
-		while(true) {
+		while(true) { // ! Ohne count ist das ein Endlosschleife
 			System.out.println("Hi");
 			if (count == 3) {
 				break;
